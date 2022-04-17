@@ -1,3 +1,39 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main">
+    <!--  the side menu  -->
+            <ion-menu side="start" menuId="Sesion" contentId="main">
+              <ion-header>
+                <ion-toolbar style="--background: #3facce;">
+                  <ion-title>Bienvenidos</ion-title>
+                </ion-toolbar>
+              </ion-header>
+              <ion-content>
+                <ion-list>
+                  <ion-menu-toggle [routerLink]="['/home']">
+                        <ion-item>Home</ion-item>
+                  </ion-menu-toggle>
+                  <ion-menu-toggle [routerLink]="['/contactos']"> 
+                      <ion-item>Contactos</ion-item>
+                  </ion-menu-toggle>
+                  <ion-menu-toggle [routerLink]="['/productos']">
+                        <ion-item>productos</ion-item>
+                  </ion-menu-toggle>
+                  <!-- <ion-menu-toggle [[routerLink]="['/configuracion']" ]>
+                        <ion-item>Configuracion</ion-item>
+                  </ion-menu-toggle>       -->
+              </ion-list>
+              </ion-content>
+            </ion-menu>
+  
+    <!-- the main content -->
+  
+    <ion-router-outlet id="main">
+  
+    </ion-router-outlet>
+  </ion-split-pane>
+
+
+  
+  
+  <!--<ion-router-outlet></ion-router-outlet>-->
 </ion-app>
