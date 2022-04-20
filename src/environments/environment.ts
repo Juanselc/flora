@@ -1,14 +1,13 @@
-export const environment = {
+  export const environment = {
   production: false,
 
   firebaseConfig: {
-    apiKey: "AIzaSyDDoURdR-eBkcuguxa8ibIvpy4mWnQBvs4",
-    authDomain: "floragifco.firebaseapp.com",
-    databaseURL: "https://floragifco-default-rtdb.firebaseio.com",
-    projectId: "floragifco",
-    storageBucket: "floragifco.appspot.com",
-    messagingSenderId: "425648983569",
-    appId: "1:425648983569:web:a7fb7a6d7c10759b25ebb0",
-    measurementId: "G-C57SJZNZFR"
+    apiKey: "AIzaSyCU8UNahSQjdGjs3CO34_tYXCzZpkxRoig",
+    authDomain: "flor-49fe5.firebaseapp.com",
+    projectId: "flor-49fe5",
+    storageBucket: "flor-49fe5.appspot.com",
+    messagingSenderId: "484534761815",
+    appId: "1:484534761815:web:44492b4fe8e9ca9069a612",
+    measurementId: "G-4DZX07N2KQ"
   }
 };
